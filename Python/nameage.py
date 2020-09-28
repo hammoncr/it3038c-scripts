@@ -1,0 +1,10 @@
+import time
+print('What is your name?')
+myName = input()
+print('Hello, ' + myName + '. That is a good name. How old are you?')
+myAge = input()
+programAge = int(time.time() -start time)
+print('%s? That's funny, im only a few seconds old.' % myAge)
+print('I wish I was %s years old' % (myAge, programAge))
+time.sleep(3)
+print("I'm tired. I go sleep sleep now.") 
