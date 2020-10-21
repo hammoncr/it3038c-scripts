@@ -11,7 +11,7 @@ If using Linux, you may need to specify Python3
 python3 --version
 ```
 
-Now, from the it3038c-scripts directory, run the program using Python
+Now, from the directory you saved the script to, run the program using Python
 
 ```bash
 python portcheck.py
