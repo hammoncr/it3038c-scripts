@@ -1,6 +1,4 @@
-import date
-def calculateAge(birthDate):
-secondsInYear = 31536000
-age = int((date.today) - birthDate).days / secondsInYear)
-return age
-print(calculateAge(date(1986, 4, 30)), "seconds")
+print("How old are you?")
+age = int(input())
+seconds = str(age*31536000)
+print("Your age in seconds is " + seconds + " .... WOW!")
