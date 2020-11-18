@@ -1,6 +1,6 @@
-from flask import flask, render_template, request
+from flask import Flask, render_template, request
 
-app = flask(__name__)
+app = Flask(__name__)
 app.config.from_object(__name__)
 
 @app.route('/')
