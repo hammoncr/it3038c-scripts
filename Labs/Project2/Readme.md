@@ -16,11 +16,9 @@ Now, from the directory you saved the script to, run the program using Python
 ```bash
 python portcheck.py
 ```
-This will check if port 80 on espn.com is an open port. But who wants to know that besides me?
-More than likely you would like to check ports on another site.
-To do so
-Open the portcheck.py file in an editer of your choice, I prefer VSC
-Change the variable "ip" to an ip address or the hostname of the site to check
-Then change the variable "port" to the port number you would like to check.
+The point of this program is to check if a specified port is open at a specified address.
+This can be useful for testing email server setups or ssh ports for a remote server, or any infinite number of reasons to check networks for open ports.
 
-Then save and run the script again and it will test and let you know if the port is open or closed.
+The program will start by asking you to input an ip address or a website address, it can take either. 
+It will then ask you for a port number to check the status of.
+Once you input those two things, it will reach out and check the status and return that status to you.
