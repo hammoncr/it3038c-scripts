@@ -11,6 +11,9 @@ import time
 # change ip to the site you want to check and port to the port number you want to check.
 #ip = "espn.com"
 #port = 80
+
+#request user input for a website or ip address to check and a port number
+
 ip = input("Enter the website you would like to check, either IP or domain name, like www.google.com: ")
 port = input("Enter the port number you would like to check, like port 80 for http: ")
 retry = 2
